@@ -20,7 +20,7 @@ function playGame() {
     const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
     if (userAnswer.toLowerCase() === correctAnswer) {
       console.log('Correct!');
-      correctAnswersCount++;
+      correctAnswersCount += 1;
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
